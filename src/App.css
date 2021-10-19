@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.message-alert{
+ 
+  width:35%;
+  margin:10px auto;
+  box-shadow: 0px 0px 10px #000,
+              0px 0px 30px #777;
+              border-radius: 10px;
+              margin-top: 15px;
+              flex-wrap: wrap;
+              margin-bottom: 8%!important;
+}
+.resultatConversion{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+ width:45%;
+ margin:50px auto;
+ height:125px;
+ font-size:1.5rem;
+ background-color: rgb(148, 145, 145);;
+ border-radius: 10px;;
+ box-shadow: 0px 0px 10px #000,
+              0px 0px 30px #777;
+ color:#fff;
+ 
+ border-left:7px solid #4fc3f7;
+}
+
+.img{
+  display: flex;
+  padding: .3em;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width:25px;
+ height:25px;
+}
+
+p{
+ padding-bottom: 1.6em;;
+}
+
+@media(max-width:999px){
+
+
+  .message-alert{
+
+    width:75%;
+    margin:20px auto;
+  }
+  .resultatConversion{
+
+
+    width:85%;
+    margin:8px auto;
+    
+  }
+  .img{
+    display: flex;
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  .resultatConversion{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+}
